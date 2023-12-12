@@ -1,0 +1,126 @@
+.card{
+    width: 75% !important;
+}
+
+.functionButton{
+    width: 25px !important;
+    color: green !important;
+}
+
+.jobbra{
+    float: right !important;
+}
+
+.newData{
+    width: 150px !important;
+}
+
+.warning{
+    color: rgb(255, 255, 255);
+  }
+  .st_viewport{
+    max-height: 650px;
+  }
+  
+  [data-table_id="1"]{
+    background-color: rgb(0, 0, 0);
+  }
+  [data-table_id="2"]{
+    background-color: rgb(0, 0, 0);
+    color: rgb(220,220,220);
+  }
+  [data-table_id="3"]{
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  ._rank{
+    min-width: 30px;
+  }
+  ._id{
+    min-width: 20px;
+  }
+  ._name{
+    min-width: 100px;
+  }
+  ._surname{
+    min-width: 100px;
+  }
+  ._year{
+    min-width: 100px;
+  }
+  ._section{
+    min-width: 100px;
+  }
+
+  .companyName{
+    min-width: 300px;
+  }
+
+  ._error{
+    width: 700px;
+  }
+
+  .companyLocation{
+    min-width: 300px;
+  }
+
+  .taxNumber{
+    min-width: 250px;
+  }
+  
+  pre{
+    overflow: auto;
+  }
+  
+  /** Sticky table styles **/
+  .st_viewport{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin: 20px 0;
+  }
+  /* ###  Table wrap */
+
+  /* ##   header */
+  .st_table_header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    background-color: rgb(27,30,36);
+    color: rgb(255, 255, 255);
+  }
+  .st_table_header h2{
+    font-weight: 400;
+    margin: 0 20px;
+    padding: 20px 0 0;
+  }
+  .st_table_header, .st_row{
+    color: rgb(255, 255, 255);
+  }
+  /* ##  table */
+  .st_table{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  /* #   row */
+  .st_row{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+  }
+  .st_table .st_row:nth-child(even){
+    background-color: rgba(0,0,0, .1)
+  }
+  /* #   column */
+  .st_column{
+    padding: 10px 20px;
+  }
